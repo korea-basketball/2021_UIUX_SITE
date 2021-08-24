@@ -1,0 +1,81 @@
+@charset 'utf-8';
+body{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 14px;
+}
+
+/* header  */
+#header{min-width:1200px}
+.util_menu_wrap{background: #0044af;}
+.util_menu{width: 1200px;margin: 0 auto;}
+.util_menu .left{float: left;}
+.util_menu .right{float: right;}
+
+.util_menu .left li{float: left;margin-right:2px;}
+.util_menu .left a{
+    display: block;text-align: center;line-height: 40px;
+    background: #00163b;color:#fff;width: 120px;
+}
+.util_menu .left a.active,
+.util_menu .left a:hover{background: #fff;color: #333;}
+
+.util_menu .right li{float: left;}
+.util_menu .right a{
+    display: block;line-height: 40px;color:#fff;padding: 0 10px;
+}
+
+.util_menu .right li:nth-child(2) a{
+    float: left;background: #fff;color:#000;
+    line-height: 20px;width: 20px;padding: 0;text-align: center;margin-right:2px;
+    margin-top: 10px;
+}
+
+.gnbWrap{width: 1200px; margin: 0 auto; height: 130px;background:#fff;}
+
+.gnbWrap .cate {
+    width: 1200px; height: 130px;
+    margin: 0 auto;
+}
+.gnbWrap .catelogo{
+    float: left; width: 300px;
+    background-image: url(../images/한국대학교.PNG);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.gnbWrap .catelogo a{
+    display: block;
+    width: 220px; height: 120px;
+}
+
+.gnbWrap .catemenu{
+    float: right; width: 600px;
+}
+
+.gnbWrap .catemenu li{float: left; width:calc(100% / 5);}
+.gnbWrap .catemenu li a{
+    display: block; height: 120px; padding-left: 30;
+    font-size: 18px;
+    display: flex; justify-content: center; align-items: center;
+}
+
+
+
+
+/* contents  */
+.contents{
+    height: 1300px; /* 나중에 삭제 */
+    min-width:1200px;
+    background-color:gray;
+    background-image: url(../images/bg_dot.gif),url(../images/main_bg.jpg);
+    background-repeat: repeat,no-repeat;
+    background-position:center;
+    background-size: auto,cover;
+    padding-top: 75px;
+}
+.contents .title{
+    width: 1200px;margin: 0 auto;height: 130px;background: blue;
+    margin-bottom: 55px;
+}
+
+.container{width: 1200px;margin: 0 auto;background: #ddd;}
+.container>ul>li{float: left;}
