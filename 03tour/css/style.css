@@ -1,0 +1,83 @@
+@charset "utf-8";
+
+
+body{min-width:980px}
+.headerTopWrap{background: #0763a2 url(../images/topbg01.jpg) no-repeat center;}
+.headerTop{width: 980px;margin: 0 auto;color:white;position: relative;height: 90px;
+    _background: #000;}
+
+
+/* flex  */
+.headerTop{
+    display: flex;justify-content: space-between;align-items:center;
+    
+}
+h1{width: 100px;height: 50px;background: skyblue;}
+.search{
+    width: 200px;height:50px;background: orange;
+}
+.snsMenu{width: 300px;height:50px;background: green;}
+
+.headerBt{background: orange;}
+.headerBt li{float: left;text-align: center;line-height:40px;width:calc(100% / 6)}
+.headerBt li.active{background: gray;}
+.headerBt ul{margin: 0 auto;width: 980px;}
+
+
+
+/* index content  */
+.content{
+    height:1000px;background: url(../images/bg.jpg) no-repeat center;
+    background-size: cover;
+}
+
+/* footer  */
+.footer{
+    height: 300px;background: #fff;
+}
+.footer address{width: 980px;margin: 0 auto}
+
+
+/* sub common  */
+.subContent .subImg{
+    height: 300px;
+    display: flex;justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.subContent .subImgTitle{text-align: center;transform:translateY(-30px)}
+.subContent .subImgTitle h3{font-size: 2em;text-shadow: 0 0 10px #fff;}
+.subContent .subImgTitle p{text-shadow: 0 0 10px #fff;}
+.subContent .subImgTitle h3:after{
+    content:"";display: block;
+    width: 80%;height: 2px;background: #000;
+    margin: 10px auto;
+}
+.subContent .container{width: 980px;margin: 0 auto;padding: 30px 0;}
+.subContent .container img{display: block;margin: 0 auto}
+.subContent .location{width: 860px;margin: 0 auto;font-size:14px;margin-bottom: 16px;}
+
+/* sub company  */
+
+body.sub{background: #ccc;}
+.subContent.company .subImg{
+    background-image: url(../images/subimg01.jpg);
+    
+    
+}
+.subContent.company .container{
+    border: 1px solid #999;
+    border-top: 5px solid #0664A1;
+    border-bottom: 5px solid #0664A1;
+    position: relative;top:-50px;
+    background: #fff;
+}
+
+
+
+ /* sub citytour  */
+.subContent.cityTour .subImg{
+    background-image: url(../images/subimg02.jpg);
+}
